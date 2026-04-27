@@ -27,4 +27,34 @@ An AI-powered web app that transforms your resume into an ATS-friendly format in
 ## ⚙️ Setup & Installation
 
 ### 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/resume-ats.git
+cd resume-ats
+```
+
+### 2. Install dependencies
 ```bash
+pip install -r requirements.txt
+```
+
+### 3. Create .env file
+
+GROQ_API_KEY=your_groq_api_key_here
+
+### 4. Run the app
+```bash
+python app.py
+```
+
+### 5. Open in browser
+
+http://localhost:5000
+
+## 📌 Notes
+- Only PDF files supported
+- Works best with text-based resumes
+- Scanned PDFs not supported
+
+## 👨‍💻 Developer
+Made by **Rahizi Rahim**
+
+📧 Contact: rahizirahim [at] gmail [dot] com
